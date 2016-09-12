@@ -1,9 +1,5 @@
-export class Foo {
-  bar: string;
-  constructor() {
-    this.bar = 'baz';
-  }
+export interface NodeTree {
+  enumVal?: Enum;
 }
 
-const c = new Foo();
-console.log(`"${c.bar}"" from typescript`);
+export enum Enum { }

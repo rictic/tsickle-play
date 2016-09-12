@@ -1,11 +1,6 @@
 {
   "compilerOptions": {
-    "target": "es6",
-    "module": "none",
-    "noImplicitAny": true,
-    "strictNullChecks": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true
+    "declaration": true
   },
   "include": [
     "src/**/*.ts"
