@@ -1,0 +1,5 @@
+src/index.js
+lib/
+node_modules
+src/*.js
+!src/*closure.js

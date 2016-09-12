@@ -1,0 +1,21 @@
+{
+  "name": "tsickle-play",
+  "version": "1.0.0",
+  "description": "Repo for experimenting with tsickle and producing bug repros.",
+  "main": "lib/output.min.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "google-closure-compiler": "^20160822.2.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp": "^3.9.1",
+    "tsickle": "^0.1.7",
+    "typescript": "^2.0.0",
+    "vinyl": "^1.2.0"
+  },
+  "scripts": {
+    "test": "gulp && node lib/output.min.js"
+  },
+  "author": "",
+  "license": "MIT"
+}
